@@ -1,0 +1,12 @@
+.cool {
+  border: none;
+  background: none;
+  outline: none;
+  width: 96px;
+  height: 26px;
+  background-color: rgb(35, 35, 49);
+  border-radius: 15%;
+  font-size: 18px;
+  font-family: sans-serif;
+  color: whitesmoke;
+}
