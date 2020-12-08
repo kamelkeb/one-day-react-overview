@@ -198,3 +198,10 @@ Fragment est un composant pratique pour englober plusieurs éléments/composant
 en un seul.
 
 */
+
+/*
+Quelques exemples de librairies UI intéressantes:
+https://ant.design/docs/react/getting-started
+https://ionicframework.com/docs/components
+https://material-ui.com/getting-started/installation/
+*/
