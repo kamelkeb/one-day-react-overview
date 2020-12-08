@@ -147,3 +147,54 @@ de l'objet (props) passé en argument à ma fonction composant par react.
 
 Le passage de données de parent à enfant passe par les props.
 */
+
+/*
+EXTRA:
+Cloner un repo à partir de github.
+
+- Créer/choisir le dossier de destination.
+- Ouvrir dans ce même dossier un terminal disposant de 'git'
+(sur windows un logiciel spécifique est à installer, sur unix like
+    il suffit d'avoir installé git et c'est souvent le cas d'office)
+- Puis:
+git clone adresse_du_repo_distant
+git clone https://github.com/kamelkeb/one-day-react-overview.git
+
+Si c'est un repo de projet react, quelques étapes en plus:
+- Entrer le dossier racine du projet (dans un terminal).
+- Installer les dépendances:
+npm install
+
+- Une fois les dépendances installées, on peut:
+code .
+npm start
+
+Happy coding!
+*/
+
+/*
+State (état) dans un composant fonction.
+Dès que je veux me rappeler de quelque chose entre les différents
+rendu, quelque chose qui pourra changer, que l'on voudra pouvoir
+changer programmatiquement je pense à l'usage d'un state.
+
+Spécifiquement dans les composant fonction, voici les étapes:
+import { useState } from "react";
+
+Puis dans le corps de la fonction:
+const [nomDuState, setNomDuState] = useState(valeurInitiale);
+
+à partir de ce moment la, je dispose d'une référence au state (nomDuState)
+et d'une fonction me permettant de modifier le state à ma guise (setNomDuState)
+
+
+*/
+
+/*
+Pour ne retourner qu'un seul élément/composant, je peux si c'est
+justifié envelopper dans une <div>, ou sinon utiliser:
+import { Fragment } from "react";
+Fragment est un composant pratique pour englober plusieurs éléments/composant
+en un seul.
+
+*/

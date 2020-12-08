@@ -2,11 +2,12 @@
   border: none;
   background: none;
   outline: none;
-  width: 96px;
+  width: 140px;
   height: 26px;
-  background-color: rgb(35, 35, 49);
-  border-radius: 15%;
+  margin: 15px;
+  background-color: rgb(195, 241, 230);
+  border-radius: 4%;
   font-size: 18px;
   font-family: sans-serif;
-  color: whitesmoke;
+  color: rgb(142, 46, 180);
 }
